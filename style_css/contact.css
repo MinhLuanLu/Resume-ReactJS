@@ -1,0 +1,195 @@
+.ContactContainer{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;    
+    
+}
+
+.bodyContactPage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    margin-top: -100px;
+
+}
+
+
+.leftSectionContactPage{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+}
+
+.leftSectionContainerContact{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    border-radius: 10px;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+}
+
+.findmeText{
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+}
+
+.infoEmailText{
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    
+}
+
+.infoTelText{
+    color: #FFFFFF;
+    margin-top: 0px;
+    padding-bottom: 50px;
+}
+
+.rightSectionContact{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    align-items: flex-start;
+}
+
+.inputContainer{
+    flex:0.5;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10px;
+    width: 70%;
+    align-items: center;
+}
+
+.inputInfo{
+    height: 60%;
+    width: 100%;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.inputInfo::placeholder{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.subjectContainer{
+    flex: 0.5;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.subjectInput{
+    height:85%;
+    width: 95.5%;
+    padding-left:10px ;
+    padding-top: 10px;
+}
+
+.subjectInput::placeholder{
+    position: absolute;
+    top: 10px;
+}
+
+.messageInputContainer{
+    flex:2;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.messageInput {
+    width: 95.5%;
+    overflow-y: hidden;
+    height: 80%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.messageInput::placeholder{
+    position: absolute;
+    top:10px;
+}
+
+#inputField{
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.send-btn{
+    padding: 8px 20px 8px 20px;
+    margin-top: 10px;
+    background-color: blueviolet;
+    border-width: 0px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    transition: all 0.3s;
+    color: #FFFFFF;
+    width: 20%;
+    text-align: center;
+    align-self: center;
+}
+
+.send-btn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+@media only screen and (max-width:1000px){
+    .bodyContactPage{
+        flex-direction: column;
+        margin-top: -50px;
+        height: 100%;
+    }
+
+    .ContactContainer{
+        height: 150vh;
+    }
+
+    #text{
+        margin-top: 250px;
+    }
+
+    .leftSectionContactPage{
+        width: 100%;
+        flex: 0.5;
+        margin-bottom: 50px;
+    }
+
+    .rightSectionContact{
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:600px){
+    
+    .leftSectionContactPage{
+        width: 150%;
+    }
+
+    .inputContainer{
+        flex-direction: column;
+        margin-left: 20px;
+        width: 67%;
+        
+    }
+}

@@ -1,0 +1,28 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+}
+
+.pdfContainer{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PortfolioText{
+    text-align: center;
+}
+
+@media only screen and (max-width:800px){
+    .Container{
+        margin-top: 100px;
+    }
+}
+
+
+@media only screen and (max-width:600px){
+    .PortfolioText{
+        font-size: x-large;
+    }
+}

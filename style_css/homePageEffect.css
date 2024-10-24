@@ -1,0 +1,25 @@
+.hiddenAboutPage{
+    opacity: 0;
+    transition: all 2s;
+    transform: translateY(10%);
+    filter: blur(2px);
+}
+
+.showAboutPage{
+    opacity: 1;
+    transform: translateY(0%);
+    filter: blur(0px);
+}
+
+.hiddenProjectPage{
+    opacity: 0;
+    transition: all 2s;
+    transform: translateX(-20%);
+    filter: blur(3px);
+}
+
+.showProjectPage{
+    opacity: 1;
+    transform: translateX(0%);
+    filter: blur(0px);
+}
