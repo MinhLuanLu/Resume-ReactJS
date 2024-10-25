@@ -19,10 +19,10 @@ export default function Header(){
                 <h3 className='titleName'>Minh <span className='dot'>.</span></h3>
             </div>
             <div className='middleHeader'>
-                <Link className='pageTitle' to="/Home"><p>Home</p></Link>
-                <Link  className='pageTitle' to="/About"><p>About</p></Link>
-                <Link className='pageTitle' to="/Project"><p>Projects</p></Link>
-                <Link className='pageTitle'  to='/Contact'><p>Contract</p></Link>
+                <Link className='pageTitle' to="/Resume-ReactJS/"><p>Home</p></Link>
+                <Link  className='pageTitle' to="/Resume-ReactJS/about"><p>About</p></Link>
+                <Link className='pageTitle' to="/Resume-ReactJS/project"><p>Projects</p></Link>
+                <Link className='pageTitle'  to='/Resume-ReactJS/contact'><p>Contract</p></Link>
             </div>
             <div className='rightHeader'>
                 <Link to='/PortfolioProjects'><button onClick={handleDownloadCV} className='Download_btn'>Download CV</button></Link>
