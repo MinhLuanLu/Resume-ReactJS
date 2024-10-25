@@ -25,7 +25,7 @@ export default function Header(){
                 <Link className='pageTitle'  to='/Resume-ReactJS/contact'><p>Contract</p></Link>
             </div>
             <div className='rightHeader'>
-                <Link to='/PortfolioProjects'><button onClick={handleDownloadCV} className='Download_btn'>Download CV</button></Link>
+                <Link to='/Resume-ReactJS/PortfolioProjects'><button onClick={handleDownloadCV} className='Download_btn'>Download CV</button></Link>
             </div>
         </div>
         </>

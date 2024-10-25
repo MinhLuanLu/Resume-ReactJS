@@ -48,7 +48,7 @@ export default function Project(){
             <div className='bodyProjectPage'>
                 <h1 className='projectText'>Project</h1>
                 <div className='project-Container'>
-                    <Link className='project' to='/PortfolioProjects'>
+                    <Link className='project' to='/Resume-ReactJS/PortfolioProjects'>
                         <img className='complete-Icon' src={bag} alt="" />
                         <a href="">
                             <h1>Completed</h1>

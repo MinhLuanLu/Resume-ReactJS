@@ -7,8 +7,8 @@ import { createBrowserRouter, RouterProvider, createRoutesFromElements, Route } 
 import Home from '../pages/home.jsx';
 import AboutPage from '../pages/about.jsx';
 import ProjectPage from '../pages/project.jsx';
-import PortfolioProjects from '../portfolio-Projects/portfolio-Projects.jsx';
 import ContactPage from '../pages/contact.jsx';
+import PortfolioProjects from '../portfolio-Projects/portfolio-Projects.jsx'
 
 // Create the router with all routes
 const router = createBrowserRouter(
@@ -18,8 +18,7 @@ const router = createBrowserRouter(
       <Route path='about' element={<AboutPage />} />
       <Route path='project' element={<ProjectPage />} />
       <Route path='portfolioProjects' element={<PortfolioProjects />} />
-      <Route path='contact' element={<ContactPage />} />
-      
+      <Route path='contact' element={<ContactPage />} />      
     </Route>
   )
 );
