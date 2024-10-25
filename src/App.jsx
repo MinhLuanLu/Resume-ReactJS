@@ -1,4 +1,4 @@
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import {BrowserRouter, Route, Routes, HashRouter as Router} from 'react-router-dom';
 import Home from '../pages/home'
 import AboutPage from '../pages/about';
 import ProjectPage from '../pages/project';
@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <ChangePageProvider>
-        <BrowserRouter>
+        <Router>
           <Routes>
             <Route index element={<Home/>}/>
             <Route path='/Home' element={<Home/>}/>
@@ -22,7 +22,7 @@ function App() {
             <Route path='/PortfolioProjects' element={<PortfolioProjects/>}/>
             <Route path='/Contact' element={<ContactPage/>}/>
           </Routes>
-        </BrowserRouter>
+        </Router>
       </ChangePageProvider>
     </>
   )
