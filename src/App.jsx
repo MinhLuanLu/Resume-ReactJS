@@ -15,7 +15,7 @@ function App() {
       <ChangePageProvider>
         <BrowserRouter>
           <Routes>
-            <Route path='/Resume-ReactJS/CV' element={<Home/>}/>
+            <Route path='/Resume-ReactJS/' element={<Home/>}/>
             <Route path='/Home' element={<Home/>}/>
             <Route path='/About' element={<AboutPage/>}/>
             <Route path='/Project' element={<ProjectPage/>}/>
