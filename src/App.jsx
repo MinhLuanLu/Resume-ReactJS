@@ -1,4 +1,4 @@
-import {BrowserRouter, Route, Routes, HashRouter as Router} from 'react-router-dom';
+import {BrowserRouter, Route, Routes, HashRouter as Router, Switch } from 'react-router-dom';
 import Home from '../pages/home'
 import AboutPage from '../pages/about';
 import ProjectPage from '../pages/project';
@@ -13,15 +13,16 @@ function App() {
   return (
     <>
       <ChangePageProvider>
-        <Router>
-          <Routes>
+        <Router basename='/Resume-ReactJS'>
+          <Switch>
+            <Route exact path="/" component={HomePage} />
             <Route index element={<Home/>}/>
             <Route path='/Home' element={<Home/>}/>
             <Route path='/About' element={<AboutPage/>}/>
             <Route path='/Project' element={<ProjectPage/>}/>
             <Route path='/PortfolioProjects' element={<PortfolioProjects/>}/>
             <Route path='/Contact' element={<ContactPage/>}/>
-          </Routes>
+          </Switch>
         </Router>
       </ChangePageProvider>
     </>
