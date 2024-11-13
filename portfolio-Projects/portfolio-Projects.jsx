@@ -5,6 +5,7 @@ import '../style_css/pdfView.css'
 import Header from '../components/header'
 // Import the local PDF file
 import SmartWorkProject from "../pdf/SmartWork.pdf";
+import Flexfit from '../pdf/Fexfit_App.pdf'
 import CV from '../pdf/CV.pdf'
 import { useContext } from "react";
 import { ChangePageContext } from "../contextAPI/changePageContext";
@@ -15,6 +16,7 @@ export default function PortfolioProjects() {
 
   const docs = [
     { uri: SmartWorkProject },
+    {uri: Flexfit},
     {uri: CV},
   ];
   
