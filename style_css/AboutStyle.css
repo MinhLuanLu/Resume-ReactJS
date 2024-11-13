@@ -201,6 +201,11 @@
         margin-top: 30px;
     }
 
+    .leftSectionContainer:hover{
+        width:50%;
+    }
+    
+
     
 }
 

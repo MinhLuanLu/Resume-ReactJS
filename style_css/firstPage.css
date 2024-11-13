@@ -194,6 +194,10 @@ html, body {
     .scroll-btn{
         display: none;
     }
+
+    .left-section-Container:hover{
+        width: 100%;
+    }
 }
 
 
