@@ -80,11 +80,14 @@ export default function Contact(){
                 </div>
                 <div className='rightSectionContact'>
                     <div className='inputContainer'>
+                       
                         <textarea value={name} onChange={handleNameInput} id='inputField' className='inputInfo' type="text" placeholder='Name'/>
+                        
                         <textarea value={email} onChange={handleEmailInput} id='inputField' className='inputInfo' type="text" name="" placeholder='Email' />
                     </div>
 
                     <div className='subjectContainer'>
+                      
                         <textarea value={subject} onChange={handleSubject} id='inputField' className='subjectInput' type="text" name="" placeholder='Subject' />
                     </div>
                     

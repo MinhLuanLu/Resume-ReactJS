@@ -137,14 +137,11 @@
     padding: 8px 20px 8px 20px;
     margin-top: 10px;
     background-color: blueviolet;
-    border-width: 0px;
-    color: #FFFFFF;
+    width: 30%;
+    border-width: 0;
     border-radius: 5px;
-    transition: all 0.3s;
-    color: #FFFFFF;
-    width: 20%;
-    text-align: center;
     align-self: center;
+    color: #FFFFFF;
 }
 
 .send-btn:hover{

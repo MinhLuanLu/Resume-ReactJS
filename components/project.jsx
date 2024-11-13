@@ -10,8 +10,8 @@ import experienceICon from '../src/assets/experienceICon.png'
 
 export default function Project(){
 
-    const [completeProject, setCompleteProject] = useState(1)
-    const [WorkingOnProject, setWorkingOnProject] = useState(1)
+    const [completeProject, setCompleteProject] = useState(2)
+    const [WorkingOnProject, setWorkingOnProject] = useState(0)
     const [totalProject, setTotalProject] = useState(completeProject + WorkingOnProject)
 
     const {changePage, setChangePage} = useContext(ChangePageContext)
