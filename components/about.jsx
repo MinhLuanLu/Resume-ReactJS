@@ -87,13 +87,10 @@ export default function About(){
                                     </div>
                                     <div className='backendtext'>
                                         <div>
-                                            <p className='name'>PostgreSQL</p>
+                                            <p className='name'>SQLite</p>
                                         
                                         </div>
-                                        <div>
-                                            <p className='name'>None</p>
-                                            
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
