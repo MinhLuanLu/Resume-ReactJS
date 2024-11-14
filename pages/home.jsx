@@ -1,6 +1,6 @@
 import '../style_css/firstPage.css';
 import '../style_css/homePageEffect.css';
-import avatar from '../src/assets/avatar.png';
+import avatar from '../src/assets/avatar1.png';
 import instagram from '../src/assets/instagram.png';
 import github from '../src/assets/github.png';
 import linkedin from '../src/assets/linkedin.png';
